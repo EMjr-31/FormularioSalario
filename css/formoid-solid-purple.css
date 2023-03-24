@@ -19,7 +19,6 @@ html{
 .formoid-solid-purple>.title{
   margin: 8px;
 }
-
 .formoid-solid-purple .error-field .required{
   color:#FF9999;
 }
@@ -133,43 +132,7 @@ html{
 .blurBg,
 .blurBg-true{
   background-attachment: fixed;
-  background-image:
-    /* linear bottom */
-	-webkit-linear-gradient(5deg, rgba(255, 255, 255, 0.35) -10%, rgba(255, 255, 255, 0) 20%), 
-    /* center white */
-	-webkit-radial-gradient(40% 60%, ellipse farthest-side, rgba(255, 255, 255, 0.45) -10%, rgba(255, 255, 255, 0) 100%),
-    /* top center white */
-	-webkit-radial-gradient(50% -10%, circle farthest-side, rgba(255, 255, 255, 0.35) -10%, rgba(255, 255, 255, 0) 30%),
-    /* top right white */
-	-webkit-radial-gradient(100% 0%, ellipse farthest-side, rgba(255, 255, 255, 0.35) -10%, rgba(255, 255, 255, 0) 20%),
-    /* top left white */
-	-webkit-radial-gradient(0% 0%, ellipse farthest-side, rgba(255, 255, 255, 0.35) -10%, rgba(255, 255, 255, 0) 10%),
-    /* center right black */
-	-webkit-radial-gradient(90% 60%, ellipse farthest-side, rgba(0, 0, 0, 0.35) -10%, rgba(0, 0, 0, 0) 100%),
-    -webkit-radial-gradient(20% 10%, circle farthest-side, rgba(0, 0, 0, 0.25) -10%, rgba(0, 0, 0, 0) 20%);
-  
-  background-image:
-    /* linear bottom */
-	linear-gradient(85deg, rgba(255, 255, 255, 0.35) -10%, rgba(255, 255, 255, 0) 20%), 
-    /* center white */
-	radial-gradient(40% 60%,ellipse farthest-side, rgba(255, 255, 255, 0.45) -10%, rgba(255, 255, 255, 0) 100%),
-    /* top center white */
-	radial-gradient(50% -10%,circle farthest-side, rgba(255, 255, 255, 0.35) -10%, rgba(255, 255, 255, 0) 30%),
-    /* top right white */
-	radial-gradient(100% 0%,ellipse farthest-side, rgba(255, 255, 255, 0.35) -10%, rgba(255, 255, 255, 0) 20%),
-    /* top left white */
-	radial-gradient(0% 0%,ellipse farthest-side, rgba(255, 255, 255, 0.35) -10%, rgba(255, 255, 255, 0) 10%),
-    /* center right black */
-	radial-gradient(90% 60%,ellipse farthest-side, rgba(0, 0, 0, 0.35) -10%, rgba(0, 0, 0, 0) 100%),
-    /* top left black */
-	radial-gradient(20% 10%,circle farthest-side, rgba(0, 0, 0, 0.25) -10%, rgba(0, 0, 0, 0) 20%);
-  /*
-    radial-gradient(40% 60%,ellipse farthest-side, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0) 50%),
-    radial-gradient(50% -10%,circle closest-corner, rgba(255, 255, 255, 0.3) 20%, rgba(255, 255, 255, 0) 50%),
-    radial-gradient(0% 100%,ellipse farthest-side, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0) 20%),
-    radial-gradient(100% 0%,ellipse farthest-side, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0) 20%),
-    radial-gradient(1% 2%,circle farthest-side, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 20%);
-  */
+  background: white;
 }
 
 #formoid-info {
@@ -258,6 +221,7 @@ html{
 .formoid-solid-purple h3.section-break-title {
   margin-top: 0.5em;
   margin-bottom: 0.5em;
+  color: black;
 }
 
 .formoid-solid-purple label {
@@ -300,7 +264,7 @@ html{
   vertical-align: middle;
   text-align: right;
   border-top: 2px solid #d6dbdf;
-  background-color: #F3F5FA;
+  background-color: black;
 }
 
 .formoid-solid-purple div.title {
@@ -318,7 +282,7 @@ html{
   display: inline-block;
   padding: 4px 12px;
   margin-bottom: 1px;
-  color: #fff;
+  color: black;
   text-align: left;
   vertical-align: middle;
   cursor: pointer;
@@ -376,7 +340,7 @@ html{
   bottom: 4px;
   float: none;
   font-size: 1em;
-  color: #fff;
+  color:black;
   padding: 1.8% 1.2em 0 1.2em;
   border-radius: 3px;
   cursor: pointer;
@@ -391,7 +355,6 @@ html{
 
 .formoid-solid-purple .element-file .file_text {
   overflow: hidden;
-  color: #A9A9A9;
   background-color: #fff;
   -webkit-transition: border-color .25s ease-in-out;
   transition: border-color .25s ease-in-out;
@@ -908,7 +871,7 @@ html{
 }
 
 .formoid-solid-purple div.title{
-  background-color: #9B59B6;
+  background-color: black;
   border-top: 1px solid #B88ACB;
   border-bottom: 5px solid #78428E;
 }
